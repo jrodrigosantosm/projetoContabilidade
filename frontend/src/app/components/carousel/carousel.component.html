@@ -1,1 +1,7 @@
-<p>carousel works!</p>
+<div >
+<p-carousel  [value]="imagens">
+    <ng-template let-imagem pTemplate="item">
+      <img   class="custonClass" [src]="imagem.source" alt="Imagem Carousel">
+    </ng-template>
+  </p-carousel>
+</div>

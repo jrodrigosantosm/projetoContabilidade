@@ -6,5 +6,9 @@ import { Component } from '@angular/core';
   styleUrl: './carousel.component.css'
 })
 export class CarouselComponent {
-
+  imagens = [
+    { source: 'assets/bannner1.png' },
+    { source: 'assets/bannner1.png' },
+    { source: 'assets/bannner1.png' },
+  ];
 }
