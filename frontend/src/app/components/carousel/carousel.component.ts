@@ -11,4 +11,6 @@ export class CarouselComponent {
     { source: 'assets/bannner1.png' },
     { source: 'assets/bannner1.png' },
   ];
+
+  carouselStyle = { 'position': 'relative' };
 }
