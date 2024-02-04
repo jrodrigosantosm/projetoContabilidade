@@ -1,7 +1,8 @@
 <div >
-  <p-carousel [value]="imagens" [style]="carouselStyle">
+  <p-carousel [value]="imagens" [style]="carouselStyle" [showNavigators]="false">
     <ng-template let-imagem pTemplate="item">
-      <img  class="custonClass"  [src]="imagem.source" alt="Imagem Carousel">
+      <img  class="custonClass" 
+        [src]="imagem.source" alt="Imagem Carousel">
     </ng-template>
   </p-carousel>
 </div>
