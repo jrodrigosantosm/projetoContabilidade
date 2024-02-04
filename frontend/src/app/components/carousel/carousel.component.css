@@ -1,3 +1,9 @@
+*{
+    margin: -8px !important;
+margin-top: -40px !important;
+}
+
+
 .custonClass{
     width: 100%;
     height: 450px !important;
