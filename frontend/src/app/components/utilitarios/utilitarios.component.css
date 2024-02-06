@@ -1,0 +1,46 @@
+.custonClass {
+    width: 100%;
+    height: 330px !important;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.icons-containe {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-top: 3%;
+    width: 100%;
+}
+
+.icons-containe-item {
+    background-color: blueviolet;
+    width: 130px;
+    height: 130px;
+    display: flex;
+    border-radius: 65px;
+    justify-content: center;
+    align-items: center;
+}
+
+.icons-iten-img {
+    width: 80px;
+}
+
+.text-sub-titulo {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    font-size: 20px;
+    margin-top: -15px;
+    text-align: center;
+
+}
+
+.container-item {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
