@@ -1,0 +1,6 @@
+.custonClass {
+    width: 100%;
+    height: 330px !important;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
