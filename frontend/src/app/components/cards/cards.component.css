@@ -10,28 +10,19 @@
     text-align: center;
     display: flex !important;
     justify-content: center !important;
+    margin-top: -20px !important;
 }
 
-/* Estilo para o link "Saiba Mais" */
 a.saiba-mais {
     color: #007bff;
-    /* Cor do texto */
     text-decoration: none;
-    /* Remove o sublinhado */
     font-weight: bold;
-    /* Deixa o texto em negrito */
     font-size: 16px;
-    /* Tamanho da fonte */
     transition: color 0.3s ease;
-    /* Adiciona uma transição suave para a cor */
 }
 
-/* Estilo para quando o link é passado com o mouse */
 a.saiba-mais:hover {
     color: #0056b3;
-    /* Altera a cor do texto ao passar o mouse */
     text-decoration: none;
-    /* Garante que não haja sublinhado ao passar o mouse */
     cursor: pointer;
-    /* Altera o cursor para indicar que é clicável */
 }
