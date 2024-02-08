@@ -1,0 +1,12 @@
+.custonClass {
+    flex-direction: row;
+    justify-content: space-evenly;
+    text-align: center;
+    color: antiquewhite;
+    background-color: rgba(102, 39, 98, 0.849);
+    width: auto;
+    height: 400px;
+    margin-left: -8px;
+    margin-right: -8px;
+
+}
