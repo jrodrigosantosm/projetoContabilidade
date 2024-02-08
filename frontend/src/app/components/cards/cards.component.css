@@ -1,0 +1,15 @@
+.card-content {
+    margin: 25px !important;
+    height: auto !important;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.text-saiba {
+    text-align: center;
+    display: flex !important;
+    justify-content: center !important;
+
+
+}
