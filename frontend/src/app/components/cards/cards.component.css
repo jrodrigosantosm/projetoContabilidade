@@ -26,3 +26,10 @@ a.saiba-mais:hover {
     text-decoration: none;
     cursor: pointer;
 }
+
+.text-content {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
