@@ -11,6 +11,7 @@ import { UtilitariosComponent } from './components/utilitarios/utilitarios.compo
 import { NossaEmpresaComponent } from './components/nossa-empresa/nossa-empresa.component';
 import { ContatoComponent } from './components/contato/contato.component';
 import { CardsComponent } from './components/cards/cards.component';
+import { FaleConoscoComponent } from './components/fale-conosco/fale-conosco.component';
 
 
 @NgModule({
@@ -21,7 +22,8 @@ import { CardsComponent } from './components/cards/cards.component';
     UtilitariosComponent,
     NossaEmpresaComponent,
     ContatoComponent,
-    CardsComponent
+    CardsComponent,
+    FaleConoscoComponent
   ],
   imports: [
     BrowserModule,
