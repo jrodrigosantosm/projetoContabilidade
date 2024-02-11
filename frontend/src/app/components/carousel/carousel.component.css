@@ -5,8 +5,13 @@
 
 
 .custonClass {
-    width: 100%;
+    width: 100vw;
     height: 480px !important;
+
+    @media (max-width: 767px) {
+        width: auto;
+        height: 230px !important;
+    }
 }
 
 .p-carousel .ui-carousel-indicator {
