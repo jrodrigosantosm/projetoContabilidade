@@ -7,9 +7,12 @@ import { Component } from '@angular/core';
 })
 export class CarouselComponent {
   imagens = [
-    { source: 'assets/bannner1.png' },
-    { source: 'assets/bannner1.png' },
-    { source: 'assets/bannner1.png' },
+    { source: 'assets/1.png' },
+    { source: 'assets/2.png' },
+    { source: 'assets/3.png' },
+    { source: 'assets/4.png' },
+    { source: 'assets/5.png' },
+    { source: 'assets/6.png' },
   ];
 
   carouselStyle = { 'position': 'relative' };

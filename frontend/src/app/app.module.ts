@@ -12,6 +12,7 @@ import { NossaEmpresaComponent } from './components/nossa-empresa/nossa-empresa.
 import { ContatoComponent } from './components/contato/contato.component';
 import { CardsComponent } from './components/cards/cards.component';
 import { FaleConoscoComponent } from './components/fale-conosco/fale-conosco.component';
+import { RodapeComponent } from './components/rodape/rodape.component';
 
 
 @NgModule({
@@ -23,7 +24,8 @@ import { FaleConoscoComponent } from './components/fale-conosco/fale-conosco.com
     NossaEmpresaComponent,
     ContatoComponent,
     CardsComponent,
-    FaleConoscoComponent
+    FaleConoscoComponent,
+    RodapeComponent
   ],
   imports: [
     BrowserModule,

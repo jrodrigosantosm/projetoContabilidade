@@ -35,3 +35,23 @@
 .subtitulo {
     margin-top: -10px;
 }
+
+.content-btn {
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+}
+
+.btn {
+    width: 160px;
+    height: 40px;
+    border-radius: 30px;
+    border: solid 2px rgb(117, 60, 172);
+    color: rgb(117, 60, 172);
+    font-weight: 600;
+}
+
+.item-subtituloa {
+    font-weight: 500;
+    color: dimgrey;
+}
