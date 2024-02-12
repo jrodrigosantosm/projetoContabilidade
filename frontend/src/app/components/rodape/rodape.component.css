@@ -1,5 +1,13 @@
 * {
     width: 100%;
 
-    @media (max-width: 767px) {}
+    @media (max-width: 767px) {
+        height: 100px;
+    }
+}
+
+.img {
+    @media (max-width: 767px) {
+        height: 220px !important;
+    }
 }
