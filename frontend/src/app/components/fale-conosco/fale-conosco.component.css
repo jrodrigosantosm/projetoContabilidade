@@ -13,13 +13,13 @@
     @media (max-width: 767px) {
         width: 60px;
         height: 60px;
+        font-size: 18px;
     }
 }
 
 .content-item {
     display: flex;
     justify-content: space-evenly;
-    font-size: 18px !important;
 }
 
 .item-content {
@@ -61,4 +61,5 @@
 .item-subtituloa {
     font-weight: 500;
     color: dimgrey;
+    font-size: 14px;
 }
