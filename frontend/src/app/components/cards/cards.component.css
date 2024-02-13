@@ -35,3 +35,20 @@ a.saiba-mais:hover {
     padding-bottom: 20px;
     color: rgb(117, 60, 172);
 }
+
+.p-card {
+    width: 280px !important;
+    height: 250px;
+    margin-bottom: 20px;
+}
+
+@media only screen and (max-width: 600px) {
+    .card-content p-card {
+        width: calc(100% - 20px);
+    }
+
+    .card-content {
+        margin-bottom: 200px !important;
+        width: 200px !important;
+    }
+}
