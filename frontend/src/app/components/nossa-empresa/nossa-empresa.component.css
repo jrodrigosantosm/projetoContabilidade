@@ -10,7 +10,8 @@
     margin-right: -8px;
 
     @media (max-width: 767px) {
-        height: 420px;
+        height: fit-content;
+        padding-bottom: 30px;
     }
 }
 
